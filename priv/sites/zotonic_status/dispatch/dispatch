@@ -1,0 +1,4 @@
+%% -*- mode: erlang -*-
+[
+ {home, [], controller_zotonic_status, [{template, "home.tpl"}]}
+].

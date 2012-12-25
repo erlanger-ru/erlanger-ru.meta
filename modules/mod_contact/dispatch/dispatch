@@ -1,0 +1,4 @@
+%% -*- mode: erlang -*-
+[
+ {contact, ["contact"], controller_page, [{template, "contact.tpl"}, {id, page_contact}]}
+].

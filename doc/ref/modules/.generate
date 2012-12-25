@@ -1,0 +1,33 @@
+#!/bin/bash
+
+for f in `find $ZOTONIC_SRC/modules -name mod_\* -type d` 
+do 
+
+    dir=${0%/*}
+    mod=${f##*/}
+    stub=$dir/meta-$mod.rst
+    doc=$dir/$mod.rst
+
+    cat <<EOF > $stub
+.. This file is generated.
+   To document this module, edit the $mod.rst file, which should include this file.
+
+.. index:: module; $mod
+.. _$mod:
+
+$mod
+${mod//?/=}
+
+EOF
+
+    if [ ! -e $doc ]; then 
+        echo "New doc: $doc"
+        cat <<EOF > $doc
+
+.. include:: meta-$mod.rst
+
+.. todo:: Not yet documented.
+EOF
+    fi
+
+done

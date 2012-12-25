@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+div.document {
+    max-width: 1100px;
+    margin: auto;
+}
+
+div.note {
+    background-color: #FFFFCC;
+    border: 0;
+}
+
+div.body h1, div.body h2, div.body h3,
+div.body h4, div.body h5, div.body h6 {
+    background: inherit;
+}
+
+div.body p, div.body dd, div.body li {
+    text-align: left;
+}
+
+pre {
+    font-size: 13px;
+    line-height: 140%;
+    border: 0;
+    background: #f0f0f0;
+}
+
+tt {
+    font-size: 13px;
+}
+
+/* table styles */
+th {
+    background-color: #eeeeee;
+}
+
+table.docutils td, table.docutils th {
+    border-color: #CCCCCC;
+    border-style: none none dotted;
+    padding: 5px 8px 6px 5px;
+}

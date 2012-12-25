@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# /path/to/zotonic/modules/<mod>/templates/{device/}template_name.tpl
+for f in `find $ZOTONIC_SRC/modules -name [^_]\*.tpl`
+do
+    read -r mod template device <<EOF
+`echo $f | sed -e 's,.*/\(mod_[^/]*\)/templates/\(\([^/]*\)/\|\)\(.*\).tpl,\1 \4 \3,'`
+EOF
+    dir=${0%/*}
+    base=$template${device:+-}$device
+    stub=$dir/meta-$base.rst
+    doc=$dir/template_$base.rst
+    title="$template${device:+ (}$device${device:+)}.tpl"
+
+    cat <<EOF > $stub
+.. This file is generated.
+   To document this template, edit the template_$base.rst file, which should include this file.
+
+.. index:: template; $base
+   single: $mod; template, $base
+.. _template-$base:
+
+$title
+${title//?/=}
+${device:+
+* Device: $device
+}
+* Module: :ref:\`$mod\`
+
+EOF
+
+    if [ ! -e $doc ]; then 
+        echo "New doc: $doc"
+        cat <<EOF > $doc
+
+.. include:: meta-$base.rst
+
+.. todo:: Not yet documented.
+EOF
+    fi
+
+done

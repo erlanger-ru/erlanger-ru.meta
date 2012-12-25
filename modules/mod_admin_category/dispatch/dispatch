@@ -1,0 +1,4 @@
+%% -*- mode: erlang -*-
+[
+ {admin_category_sorter, ["admin", "category"], controller_admin_category_sorter, []}
+].

@@ -1,0 +1,605 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: zotonic-0.7.1\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2011-09-07 11:31+0200\n"
+"Last-Translator: Juan Jose Comellas <juanjo@comellas.org>\n"
+"Language-Team: Zotonic Developers <zotonic-developers@googlegroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+
+#: modules/mod_mailinglist/mod_mailinglist.erl:365
+msgid "Mailing lists"
+msgstr "Listas de correo"
+
+#: modules/mod_mailinglist/mod_mailinglist.erl:158
+msgid "No addresses selected"
+msgstr ""
+
+#: modules/mod_mailinglist/mod_mailinglist.erl:160
+msgid "Resending bounced addresses..."
+msgstr ""
+
+#~ msgid "<em>withheld</em>"
+#~ msgstr "<em>retenido</em>"
+
+#~ msgid ""
+#~ "<h3>Recipients</h3><p>To add, remove or view the mailing list recipients, "
+#~ "click on the “show all recipients” link.</p><h3>Sender name and e-mail "
+#~ "address</h3><p>The sender name and e-mail address can be set per mailing "
+#~ "list. This defaults to the config key <tt>site.email_from</tt>.  The "
+#~ "<i>From</i> of the sent e-mails will be set to the sender name and "
+#~ "address.</p><h3>Automatic upload of recipient lists</h3><p>The dropbox "
+#~ "filename is used for the automatic upload of complete recipients list. "
+#~ "The filename must match the filename of the uploaded recipient list. The "
+#~ "complete list of recipients will be replaced with the recipients in the "
+#~ "dropbox file.</p><h3>Access control</h3><p>Everybody who can edit a "
+#~ "mailing list is also allowed to send a page to the mailing list. "
+#~ "Everybody who can view the mailing list is allowed to add an e-mail "
+#~ "address to the mailing list.</p>"
+#~ msgstr ""
+#~ "<h3>Destinatarios</h3><p>Para agregar, eliminar o ver los destinatarios "
+#~ "de las listas de correo, haga clic sobre el vínculo “mostrar todos los "
+#~ "destinatarios”.</p><h3>Nombre del remitente y dirección de correo "
+#~ "electrónico</h3><p>El nombre del remitente y la dirección de correo "
+#~ "electrónico pueden configurarse para cada lista de correo. El valor por "
+#~ "defecto usado es el de la clave de configuración <tt>site.email_from</"
+#~ "tt>.  El <i>Desde</i> de los correos enviados tendrá asignado el nombre "
+#~ "del remitente y su dirección de correo.</p><h3>Subida automática de "
+#~ "listas de destinatarios</h3><p>El nombre de archivo de destino se usa "
+#~ "para subir automáticamente una lista de destinatarios completa. El nombre "
+#~ "del archivo debe ser el mismo que el usado para la lista de destinatarios "
+#~ "subida. La lista completa de destinatarios se reemplazará con aquellos "
+#~ "presentes en el archivo de destino.</p><h3>Control de acceso</h3><p>Todo "
+#~ "aquel que puede editar una lista de correo puede también enviar una "
+#~ "página a la lista. Todo aquel que puede ver la lista de correo puede "
+#~ "agregar una dirección de correo electrónico a la lista.</p>"
+
+#~ msgid "<p>Sorry, something went wrong. Please try again later.</p>"
+#~ msgstr ""
+#~ "<p>Disculpe, se produjo un error. Por favor reintente en un rato.</p>"
+
+#~ msgid "<p>Sorry, something went wrong. Please try to re-subscribe.</p>"
+#~ msgstr ""
+#~ "<p>Disculpe, se produjo un error. Por favor trate de resuscribirse.</p>"
+
+#~ msgid "<p>Thank you. You are now subscribed.</p>"
+#~ msgstr "<p>Gracias. Se ha podido suscribir.</p>"
+
+#~ msgid "<p>Thank you. You are now unsubscribed.</p>"
+#~ msgstr "<p>Gracias. Se ha podido desuscribir.</p>"
+
+#~ msgid "Act"
+#~ msgstr "Activar"
+
+#~ msgid "Actions"
+#~ msgstr "Acciones"
+
+#~ msgid "Add a new recipient."
+#~ msgstr "Agregar un nuevo destinatario."
+
+#~ msgid "Add recipient"
+#~ msgstr "Agregar destinatario"
+
+#~ msgid ""
+#~ "After publication this page will be send to the following mailing lists:"
+#~ msgstr ""
+#~ "Después de la publicación esta página se enviará a las siguientes listas "
+#~ "de correo:"
+
+#~ msgid "All mailing lists"
+#~ msgstr "Todas las listas de correo"
+
+#~ msgid ""
+#~ "All recipients of the mailing list. You can upload or download this list, "
+#~ "which must be a file with one e-mail address per line."
+#~ msgstr ""
+#~ "Todos los receptores de la lista de correo. Puede subir o bajar esta "
+#~ "lista, que debe ser un archivo de texto con una dirección de correo "
+#~ "electrónico por línea."
+
+#~ msgid ""
+#~ "Any page can be sent as a mailing. You can send a mailing from any edit "
+#~ "page. On this page you can add or remove mailing lists and their "
+#~ "recipients."
+#~ msgstr ""
+#~ "Cualquier página puede enviarse como correo. Puede enviar un correo desde "
+#~ "cualquier página de edición. En esta página puede agregar o eliminar "
+#~ "listas de correo y sus destinatarios."
+
+#~ msgid "Are you sure you want to cancel the mailing to"
+#~ msgstr "Está seguro de que desea cancelar el correo a"
+
+#~ msgid "Are you sure you want to delete the mailing list"
+#~ msgstr "Está seguro de que desea eliminar la lista de correo"
+
+#~ msgid ""
+#~ "Before you will receive any further mail you need to confirm your "
+#~ "subscription."
+#~ msgstr ""
+#~ "Para poder empezar a recibir correos antes debe confirmar su suscripción."
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Cancel mailing"
+#~ msgstr "Cancelar correo"
+
+#~ msgid "Cancel this mailing."
+#~ msgstr "Cancelar este correo."
+
+#~ msgid "Clear"
+#~ msgstr "Limpiar"
+
+#~ msgid ""
+#~ "Click <strong>unsubscribe</strong> to remove yourself from the mailing "
+#~ "list."
+#~ msgstr ""
+#~ "Presione <strong>desuscribir</strong> para eliminarse a usted mismo de la "
+#~ "lista de correo."
+
+#~ msgid "Click here when you can’t read the message below."
+#~ msgstr "Presione acá cuando no pueda leer el mensaje de abajo."
+
+#~ msgid ""
+#~ "Click the button below to confirm your subscription to this mailing list."
+#~ msgstr ""
+#~ "Presione el botón de abajo para confirmar su suscripción a esta lista de "
+#~ "correo."
+
+#, fuzzy
+#~ msgid "Confirm sending to mailinglist"
+#~ msgstr "Enviar a lista de correo"
+
+#~ msgid "Delete all recipients from this list?"
+#~ msgstr "¿Borrar todos los detinatarios de esta lista?"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Download all"
+#~ msgstr "Bajar todo"
+
+#~ msgid "Download list of all active recipients."
+#~ msgstr "Bajar lista de todos los destinatarios activos."
+
+#~ msgid "Downloading active recipients list. Check your download window."
+#~ msgstr ""
+#~ "Bajando lista de destinatarios activos. Verifique la ventana donde se "
+#~ "esté bajando el archivo."
+
+#~ msgid "Dropbox filename (optional)"
+#~ msgstr "Nombre de archivo en Dropbox (opcional)"
+
+#~ msgid "Edit the mailing list &raquo;"
+#~ msgstr "Editar la lista de correo &raquo;"
+
+#~ msgid "Email"
+#~ msgstr "Dirección de correo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the e-mail address of the recipient. The name of the recipient is "
+#~ "optional."
+#~ msgstr " "
+
+#~ msgid "First name"
+#~ msgstr "Nombre"
+
+#~ msgid "From now on you will receive mail from our mailing list."
+#~ msgstr "De ahora en más recibirá correos de nuesta lista."
+
+#~ msgid "Give your e-mail address to subscribe to"
+#~ msgstr "Ingrese su dirección de correo electrónico para suscribirse a"
+
+#~ msgid "Go to mailinglist page"
+#~ msgstr "Enviar a lista de correo"
+
+#~ msgid "Goodbye,"
+#~ msgstr "Hasta luego,"
+
+#~ msgid "Hello,"
+#~ msgstr "Hola,"
+
+#~ msgid "Help about mailing lists."
+#~ msgstr "Ayuda acerca de listas de correo."
+
+#~ msgid "Help about the mailing page."
+#~ msgstr "Ayuda acerca de listas de correo."
+
+#~ msgid "Hope to see you again."
+#~ msgstr "Esperamos verlo nuevamente,"
+
+#~ msgid "Keep mailing"
+#~ msgstr "Continuar enviando"
+
+#~ msgid "Kind Regards,"
+#~ msgstr "Saludos,"
+
+#~ msgid "Mailing Lists"
+#~ msgstr "Listas de Correo"
+
+#~ msgid "Mailing list"
+#~ msgstr "Lista de correo"
+
+#~ msgid "Mailing list overview"
+#~ msgstr "Resument de lista de correo"
+
+#~ msgid "Mailing list settings."
+#~ msgstr "Configuración de lista de correo."
+
+#~ msgid "Mailing status"
+#~ msgstr "Listas de Correo"
+
+#~ msgid "Need more help?"
+#~ msgstr "¿Necesita más ayuda?"
+
+#~ msgid "New mailing list"
+#~ msgstr "Nueva lista de correo"
+
+#~ msgid "No items found"
+#~ msgstr "No se encontraron ítems."
+
+#~ msgid "No recipients"
+#~ msgstr "No hay destinatarios."
+
+#~ msgid "Our excuses for the inconvenience."
+#~ msgstr "Discúlpenos por los inconvenientes causados."
+
+#~ msgid "Please confirm that you want to send the page"
+#~ msgstr "Seleccione una lista de correo adonde enviar la página"
+
+#~ msgid "Please confirm your subscription"
+#~ msgstr "Por favor confirme su suscripción"
+
+#~ msgid "Please confirm your subscription on"
+#~ msgstr "Por favor confirme su suscripción en"
+
+#, fuzzy
+#~ msgid "Please enter the e-mail address you want to send a test mail to."
+#~ msgstr "Seleccione una lista de correo adonde enviar la página"
+
+#~ msgid "Please follow"
+#~ msgstr "Por favor siga"
+
+#~ msgid "Please note:"
+#~ msgstr "Por favor siga:"
+
+#~ msgid "Please unsubscribe"
+#~ msgstr "Por favor desuscríbase"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefijo"
+
+#~ msgid "Read this page on the web."
+#~ msgstr "Lea esta página en la web."
+
+#~ msgid "Recipients"
+#~ msgstr "Destinatarios"
+
+#~ msgid ""
+#~ "Recipients are subscribed either as email-only (via a simple signup "
+#~ "form), or as subscribed persons in the system."
+#~ msgstr ""
+#~ "Los destinatarios pueden suscribirse a través de correo electrónico (en "
+#~ "un formulario de registración simple) o como personas suscriptas en el "
+#~ "sistema."
+
+#~ msgid "Recipients for"
+#~ msgstr "Destinatarios para"
+
+#~ msgid "Remove this recipient. No undo possible."
+#~ msgstr "Elimine este destinatario. No se puede deshacer."
+
+#~ msgid "Scheduled"
+#~ msgstr "Agendado"
+
+#~ msgid "See the"
+#~ msgstr "Ver el"
+
+#~ msgid "Select file"
+#~ msgstr "Seleccione un archivo"
+
+#~ msgid "Send mailing"
+#~ msgstr "Enviar correo"
+
+#~ msgid "Send test mailing"
+#~ msgstr "Enviar correo de prueba"
+
+#, fuzzy
+#~ msgid "Send test to address"
+#~ msgstr "Enviar esta página a una dirección de correo electrónico."
+
+#~ msgid "Send the mailing automatically after the publication start date of"
+#~ msgstr ""
+#~ "Los correos se enviarán después de la fecha de comienzo de publicación de"
+
+#, fuzzy
+#~ msgid "Send this page to a mailinglist and view mailinglist statistics."
+#~ msgstr "Enviar esta página a una lista de correo."
+
+#, fuzzy
+#~ msgid "Send this page to a single address"
+#~ msgstr "Enviar esta página a una dirección de correo electrónico."
+
+#~ msgid "Send this page to the test mailing list."
+#~ msgstr "Enviar esta página a la lista de correo de prueba."
+
+#~ msgid "Send welcome"
+#~ msgstr "Enviar bienvenida"
+
+#~ msgid "Sender address for e-mails (optional)"
+#~ msgstr "Dirección del remitente de correo electrónico (opcional)"
+
+#~ msgid "Sender name for e-mails (optional)"
+#~ msgstr "Nombre del remitente de correo electrónico (opcional)"
+
+#, fuzzy
+#~ msgid "Sending the page to the test mailing list..."
+#~ msgstr "Enviar esta página a la lista de correo de prueba."
+
+#~ msgid "Show all recipients &raquo;"
+#~ msgstr "Mostrar todos los destinatarios &raquo;"
+
+#~ msgid ""
+#~ "Sorry, I could not subscribe you to the mailing list. Please try again "
+#~ "later or with another e-mail address."
+#~ msgstr ""
+#~ "Disculpe, no se ha podido suscribirlo a la lista de correo. Por favor "
+#~ "reintente un un rato con otra dirección de correo electrónico."
+
+#~ msgid "Sorry, can’t confirm your subscription"
+#~ msgstr "Disculpe, no se puede confirmar su suscripción"
+
+#~ msgid "Sorry, can’t find your subscription"
+#~ msgstr "Disculpe, no se puede encontrar su suscripción"
+
+#~ msgid "Subscribe"
+#~ msgstr "Suscribir"
+
+#~ msgid "Surname"
+#~ msgstr "Apellido"
+
+#~ msgid "Thank you"
+#~ msgstr "Gracias"
+
+#~ msgid ""
+#~ "The confirmation key is unknown. Either you already confirmed or "
+#~ "something else went wrong."
+#~ msgstr ""
+#~ "La clave de confirmación es desconocida. Ya confirmó o alguna otra cosa "
+#~ "falló."
+
+#~ msgid ""
+#~ "The key in your link does not match any subscription. Either you already "
+#~ "unsubscribed, or the mailing list has been deleted."
+#~ msgstr ""
+#~ "La clave en su vínculo no se corresponde con ninguna suscripción. O ya se "
+#~ "había desuscripto o la lista de correo ha sido borrada."
+
+#, fuzzy
+#~ msgid "The mailing will be send when the page becomes visible."
+#~ msgstr ""
+#~ "Los correos se enviarán después que esta página haya sido publicada."
+
+#~ msgid "The recipients list of the mailing list will be deleted as well."
+#~ msgstr ""
+#~ "La lista de destinatarios de la lista de correo también será borrada."
+
+#~ msgid "This can not be undone"
+#~ msgstr "Esto no se puede deshacer"
+
+#~ msgid "This page can be sent to different mailing lists."
+#~ msgstr "Enviar esta página a la lista de correo de prueba."
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Desuscribir"
+
+#~ msgid "Unsubscribe from"
+#~ msgstr "Desuscribir de"
+
+#~ msgid "Unsubscribe from mailing list"
+#~ msgstr "Desuscribirse de la lista de correo"
+
+#~ msgid ""
+#~ "Upload a file with recipients. The file must contain a single e-mail "
+#~ "address per line. The file’s character set must be utf-8."
+#~ msgstr ""
+#~ "Subir un archivo con destinatarios. El archivo debe contener una sola "
+#~ "dirección de correo electrónico por línea. El juego de caracteres del "
+#~ "archivo debe ser utf-8."
+
+#~ msgid "Upload a list of recipients."
+#~ msgstr "Subir una lista de destinatarios."
+
+#~ msgid "Upload file"
+#~ msgstr "Subir archivo"
+
+#~ msgid "Welcome to"
+#~ msgstr "Bienvenido a"
+
+#~ msgid ""
+#~ "When you don’t want to receive any mail then please ignore this message."
+#~ msgstr ""
+#~ "Si no desea recibir más correo entonces por favor ignore este mensaje."
+
+#~ msgid "When you don’t want to receive any more mail then"
+#~ msgstr "Si no desea recibir más correo entonces"
+
+#, fuzzy
+#~ msgid "You are not allowed to send mail to the test mailing list."
+#~ msgstr "Enviar esta página a la lista de correo de prueba."
+
+#~ msgid ""
+#~ "You are not allowed to view or edit the recipients list. You need to have "
+#~ "edit permission on the mailing list to change and view the recipients."
+#~ msgstr ""
+#~ "No tiene permisos para ver o editar la lista de destinatarios. Debe tener "
+#~ "permisos de edición sobre la lista de correo para cambiar o ver los "
+#~ "destinatarios."
+
+#~ msgid "You are now subscribed to our mailing list"
+#~ msgstr "Ahora se encuentra suscripto a nuestra lista de correo"
+
+#~ msgid "You are now unsubscribed from"
+#~ msgstr "Ya se ha desuscripto de"
+
+#~ msgid "You are now unsubscribed from the mailing list"
+#~ msgstr "Ya se ha desuscripto de la lista de correo"
+
+#~ msgid ""
+#~ "You can try to re-subscribe to one of our mailing lists in the side "
+#~ "column."
+#~ msgstr ""
+#~ "Puede tratar de resuscribirse a una de nuestras listas de correo en la "
+#~ "columna del costado."
+
+#~ msgid ""
+#~ "You received this mail because you are subscribed to the mailing list"
+#~ msgstr "Ha recibido este correo porque está suscripto a la lista de correo"
+
+#~ msgid "You will receive a confirmation in your e-mail."
+#~ msgstr "Recibirá una confirmación en su correo electrónico."
+
+#~ msgid "You, or someone else, added your e-mail address to our mailing list"
+#~ msgstr ""
+#~ "Usted o alguien más agregaron su dirección de correo electrónico a "
+#~ "nuestra lista de correo"
+
+#~ msgid ""
+#~ "Your e-mail address is added to the mailing list. A confirmation mail is "
+#~ "sent to your e-mail address and will arrive shortly. When you don’t "
+#~ "receive it, then please check your spam folder."
+#~ msgstr ""
+#~ "Su dirección de correo electrónico fue agregada a nuestra lista de "
+#~ "correo. Un correo de confirmación le llegará pronto a su casilla de "
+#~ "correo electrónico. Si no lo recibe por favor revise su carpeta de correo "
+#~ "basura."
+
+#~ msgid "cancel"
+#~ msgstr "cancelar"
+
+#~ msgid "clear"
+#~ msgstr "Limpiar"
+
+#~ msgid "click here to unsubscribe."
+#~ msgstr "haga clic aquí para desuscribirse."
+
+#~ msgid "delete"
+#~ msgstr "borrar"
+
+#~ msgid "e-Mail"
+#~ msgstr "correo electrónico"
+
+#~ msgid "edit"
+#~ msgstr "editar"
+
+#, fuzzy
+#~ msgid "has been sent to the following lists:"
+#~ msgstr ""
+#~ "Después de la publicación esta página se enviará a las siguientes listas "
+#~ "de correo:"
+
+#~ msgid "mailing list"
+#~ msgstr "lista de correo"
+
+#, fuzzy
+#~ msgid "mailinglist status page"
+#~ msgstr "Configuración de lista de correo."
+
+#~ msgid "or copy and paste the address below in your browser."
+#~ msgstr "o copie y pegue la dirección de abajo en su navegador."
+
+#, fuzzy
+#~ msgid "preview mailing"
+#~ msgstr "Continuar enviando"
+
+#~ msgid "recipients"
+#~ msgstr "destinatarios"
+
+#~ msgid "scheduled"
+#~ msgstr "Agendado"
+
+#~ msgid "send mailing"
+#~ msgstr "Enviar correo"
+
+#~ msgid "subscribe"
+#~ msgstr "suscribir"
+
+#~ msgid "subscribing persons &raquo;"
+#~ msgstr "personas suscriptas &raquo;"
+
+#~ msgid "this link to confirm"
+#~ msgstr "este vínculo para confirmar"
+
+#~ msgid "view"
+#~ msgstr "ver"
+
+#~ msgid "when you don't want to receive any further mail from this list."
+#~ msgstr "si no quiere recibir más correo de esta lista."
+
+#~ msgid "with your e-mail address"
+#~ msgstr "con su dirección de correo"
+
+#, fuzzy
+#~ msgid "E-mail"
+#~ msgstr "Dirección de correo"
+
+#~ msgid "Email page"
+#~ msgstr "Página de correo"
+
+#~ msgid "Select a mailing list to send this page to."
+#~ msgstr "Seleccione una lista de correo adonde enviar esta página."
+
+#~ msgid "Select mailing list"
+#~ msgstr "Seleccione una lista de correo"
+
+#~ msgid "Send e-mail"
+#~ msgstr "Enviar correo electrónico"
+
+#~ msgid "Send the page"
+#~ msgstr "Enviar la página"
+
+#~ msgid "Sent the e-mail."
+#~ msgstr "Enviar el correo electrónico."
+
+#~ msgid "This mail was sent to you because someone visiting"
+#~ msgstr "Este correo se le envió porque alguien visitó"
+
+#~ msgid "You can"
+#~ msgstr "Puede"
+
+#~ msgid ""
+#~ "You can send this page as an e-mail to everyone in a mailing list. If the "
+#~ "page has a future publication start date, is not yet published or is not "
+#~ "visible for the world then the mail will be send after publication of the "
+#~ "page."
+#~ msgstr ""
+#~ "Puede enviar esta página como un correo electrónico a todos en  una lista "
+#~ "de correo. Si la página tiene una fecha de publicación en el futuro, aún "
+#~ "no ha sido publicada o no es visible para todo el mundo entonces el "
+#~ "correo será enviado después de la publicación de la página."
+
+#~ msgid "read the full article online."
+#~ msgstr "leer el artículo completo en línea"
+
+#~ msgid "thought you would be interested."
+#~ msgstr "pensé que podría estar interesado."
+
+#~ msgid "to:"
+#~ msgstr "a:"
