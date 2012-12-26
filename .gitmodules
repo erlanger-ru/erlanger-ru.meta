@@ -22,3 +22,6 @@
 [submodule "deps/z_stdlib"]
 	path = deps/z_stdlib
 	url = git://github.com/zotonic/z_stdlib.git
+[submodule "priv/sites/erlanger"]
+	path = priv/sites/erlanger
+	url = https://github.com/erlanger-ru/erlanger-ru.git
